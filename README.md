@@ -8,6 +8,7 @@ Portfolio-level credit risk analysis for **Vantage Credit Partners**, a mid-size
 
 ## Live Dashboard
 
+![Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
 [**→ View on Tableau Public**](https://public.tableau.com/app/profile/nurbol.sultanov/viz/VantageCreditPartnersCreditRiskDashboard/Dashboard1)
 
 ## Key Findings
@@ -27,16 +28,22 @@ Portfolio-level credit risk analysis for **Vantage Credit Partners**, a mid-size
 
 ## Repository Structure
 
+```
+vantage-credit-risk-dashboard/
 ├── data/
 │   ├── raw/           # borrowers, loans, loan_status
 │   ├── processed/     # 9 aggregated CSVs for Tableau
 │   └── sql/           # analysis queries
 ├── notebooks/
 │   └── analysis.py    # full analysis pipeline
-└── src/
-└── generate_data.py
+├── src/
+│   └── generate_data.py
+└── dashboard/
+    └── screenshots/
+```
 
 ## Author
 
 Nurbol Sultanov — Data Analyst
 [LinkedIn](https://www.linkedin.com/in/nurbolsultanov/) · [GitHub](https://github.com/nurbolsultanov)
+
